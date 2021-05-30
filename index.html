@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loader_bg">
+        <div class="loader">
+
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo animate__animated animate__fadeInLeft animate__delay-2s">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <nav class="animate__animated animate__fadeInRight animate__delay-2s">
+                    <ul>
+                        <li><a href="#">Unsubscribe</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <h1 class="animate__animated animate__fadeInDown animate__delay-2s">NEW BRANDING STYLE</h1>
+                <p class="animate__animated animate__fadeInUp animate__delay-2s">see our new graphic design collection</p>
+                <a href="#" class="animate__animated animate__fadeInUp animate__delay-2s">Learn More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="service-box" data-aos="fade-up" data-aos-duration="1000">
+                <div class="service">
+                    <img src="images/i-1.png" alt="">
+                    <h3>Web Design</h3>
+                    <p>Lorem ispum dolor sit amet est oben dis</p>
+                </div>
+                <div class="service">
+                    <img src="images/i-2.png" alt="">
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ispum dolor sit amet est oben dis</p>
+                </div>
+                <div class="service">
+                    <img src="images/i-3.png" alt="">
+                    <h3>Photography</h3>
+                    <p>Lorem ispum dolor sit amet est oben dis</p>
+                </div>
+            </div>
+            <h2 class="wow fadeInDown" data-wow-duration="2s" data-wow-delay=".25s">“I want to make beautiful things, even if nobody cares, <br>
+                as opposed to ugly things. That’s my intent.”</h2>
+        </div>
+    </section>
+    <section class="portfolio" data-aos="fade-up" data-aos-duration="1100">
+        <div class="container p-flex">
+            <div class="p-content">
+                <img src="images/s1.jpg" alt="">
+                <h3>Cool Image</h3>
+                <p>Galaxy Corp.</p>
+            </div>
+            <div class="p-content">
+                <img src="images/s2.jpg" alt="">
+                <h3>Great Picture</h3>
+                <p>Galaxy Corp.</p>
+            </div>
+            <div class="p-content">
+                <img src="images/s3.jpg" alt="">
+                <h3>Cool Image</h3>
+                <p>Galaxy Corp.</p>
+            </div>
+        </div>
+    </section>
+    <section class="blog" data-aos="fade-down" data-aos-duration="1200">
+        <div class="container">
+             <h1 class="h1">FROM THE BLOG</h1>
+             <div class="blog-content">
+                 <div class="single-blog">
+                     <img src="images/b1.jpg" alt="">
+                     <h1>Web Design</h1>
+                     <p>Sed porttitor lectus nibh. Vivamus magna justo, 
+                        lacinia eget consectetur sed, convallis at tellus. 
+                        Curabitur aliquet quam id dui posuere blandit. 
+                        Cras ultricies ligula sed magna.</p>
+                 </div>
+                 <div class="single-blog">
+                     <img src="images/b1.jpg" alt="">
+                     <h1>Web Design</h1>
+                     <p>Sed porttitor lectus nibh. Vivamus magna justo, 
+                        lacinia eget consectetur sed, convallis at tellus. 
+                        Curabitur aliquet quam id dui posuere blandit. 
+                        Cras ultricies ligula sed magna.</p>
+                 </div>
+             </div>
+        </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+
+        new WOW().init();
+
+        AOS.init();
+        // loader
+        // setTimeout(function(){
+        //     $('.loader_bg').fadeToggle();
+        // }, 1500);
+    </script>
+</body>
+</html>
